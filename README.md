@@ -1,86 +1,63 @@
 ---
 
-# Fake\_Products\_Identification\_using\_Blockchain
+## 🧾 Project Title: Fake Products Identification Using Blockchain
 
-## Description
+### 📌 Description:
 
-This project aims to identify and verify the authenticity of products using blockchain technology. The goal is to ensure transparency and trust in the product supply chain by leveraging blockchain’s immutable and decentralized nature. The system records product data at various stages of production and distribution, making it tamper-proof and easily verifiable by consumers.
+The project **Fake Products Identification Using Blockchain** is designed to tackle the issue of counterfeit products by leveraging blockchain technology. It ensures secure, transparent, and tamper-proof tracking of products throughout the supply chain. By recording every transaction and ownership change on an immutable ledger, the system allows manufacturers, retailers, and consumers to verify the authenticity of products in real-time. This improves trust and accountability across industries like pharmaceuticals, electronics, and luxury goods.
 
-## Tools and Technologies
+---
 
-* **Blockchain**: Used to store product data in a secure, decentralized ledger.
-* **Ethereum**: The blockchain platform used for implementing smart contracts and decentralized applications.
-* **Solidity**: Programming language for writing smart contracts on the Ethereum blockchain.
-* **Web3.js**: A JavaScript library to interact with the Ethereum blockchain.
-* **IPFS (InterPlanetary File System)**: For storing product-related files, such as images or documents, in a decentralized way.
-* **Node.js**: JavaScript runtime for building the backend server and interacting with Ethereum.
-* **Truffle Suite**: A development framework for Ethereum applications to manage contracts and testing.
-* **Metamask**: A browser extension to manage Ethereum accounts and interact with decentralized applications.
+### ⚙️ Tools and Technologies Used:
 
-## Installations and Requirements
+* Blockchain (Ethereum, Ganache, Solidity)
+* Smart Contracts
+* Web3.js
+* Node.js
+* React.js (for frontend interface)
+* MetaMask (wallet integration)
+* Truffle Suite (development framework)
+* IPFS (InterPlanetary File System) – optional for storing product metadata
+* MongoDB – optional for off-chain data storage
 
-### 1. Clone the Repository
+---
 
-Clone the repository to your local machine using the following command:
+### 🛠️ Installations & Setup
 
-```bash
-git clone https://github.com/your-username/Fake_Products_identification_using_blockchain.git
-```
+1. **Install Node.js and npm**
+   Download from the official Node.js website.
 
-### 2. Install Dependencies
+2. **Install Truffle Framework**
+   Use npm to install Truffle globally.
 
-Make sure that **Node.js** and **npm** are installed on your machine. Then, install the project dependencies:
+3. **Set up Ganache**
+   Download Ganache desktop or use Ganache CLI for a local Ethereum blockchain.
 
-```bash
-npm install
-```
+4. **Install MetaMask**
+   Add the MetaMask browser extension and configure a local Ethereum network.
 
-### 3. Set up the Blockchain
+5. **(Optional) Install IPFS**
+   Use IPFS to store product metadata or certificates in a decentralized way.
 
-* Install **Truffle** globally for smart contract development:
+---
 
-```bash
-npm install -g truffle
-```
+### 📋 Requirements
 
-* Set up your **Ethereum wallet** using **Metamask**.
-* Deploy the smart contract using Truffle with the following command:
+**Software Requirements**
 
-```bash
-truffle migrate --network development
-```
+* Node.js version 14 or above
+* Truffle Framework version 5.x
+* Ganache (Desktop or CLI)
+* MetaMask Wallet
+* React.js for frontend
+* Web3.js for blockchain integration
+* MongoDB (optional, for additional backend storage)
 
-### 4. Set up IPFS (optional)
+**Hardware Requirements**
 
-If you need to store product-related files using IPFS, install the IPFS client:
-
-```bash
-npm install ipfs-http-client
-```
-
-### 5. Run the Application
-
-To start the application server, use:
-
-```bash
-npm start
-```
-
-### 6. Access the Application
-
-Open your browser and visit the local server (usually `http://localhost:3000`) to interact with the application.
-
-## Requirements
-
-* **Node.js** (v14 or higher)
-* **Metamask** browser extension
-* **Truffle** framework for smart contract deployment
-* **Ganache** (for local Ethereum blockchain testing)
-* **IPFS** (optional, for decentralized file storage)
-
-## Contributing
-
-Feel free to fork this project, open issues, and submit pull requests for improvements or new features.
+* Minimum 4GB RAM
+* Stable internet connection
+* Disk space for blockchain and local server files
 
 ---
 
